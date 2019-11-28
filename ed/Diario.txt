@@ -1,0 +1,10 @@
+**CREACIÓN DE REPOSITORIO**
+	1- Creamos el repositorio en git hub
+	2- En la terminal "git clone https://github.com/jean180/general.git" para clonar la carpeta a nuestro PC
+	3- Nos metemos en la carpeta con "cd Carpeta/"
+	4- Utilizamos "git status" para comprobar el estado de la carpeta
+	5- Usamos "git add Carpeta/" para añadir la carpteta
+	6- Añadimos un comentario con "git commit -m "Creacion de repositorio ed"
+	7- Añadimos el email de la cuenta con "git config --global user.email jean_2_0_0_0_@hotmail.com"
+	8- Añadimos el usuario "git config --global user.name jean180"
+	9- Subimos los archivos "git push"
