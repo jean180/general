@@ -1,0 +1,6 @@
+/home/jeaagu/general/ed/MonoDevelop/HolaMundo/HolaMundo/HolaMundo/bin/Debug/HolaMundo.exe
+/home/jeaagu/general/ed/MonoDevelop/HolaMundo/HolaMundo/HolaMundo/bin/Debug/HolaMundo.pdb
+/home/jeaagu/general/ed/MonoDevelop/HolaMundo/HolaMundo/HolaMundo/obj/x86/Debug/HolaMundo.csprojAssemblyReference.cache
+/home/jeaagu/general/ed/MonoDevelop/HolaMundo/HolaMundo/HolaMundo/obj/x86/Debug/HolaMundo.csproj.CoreCompileInputs.cache
+/home/jeaagu/general/ed/MonoDevelop/HolaMundo/HolaMundo/HolaMundo/obj/x86/Debug/HolaMundo.exe
+/home/jeaagu/general/ed/MonoDevelop/HolaMundo/HolaMundo/HolaMundo/obj/x86/Debug/HolaMundo.pdb
