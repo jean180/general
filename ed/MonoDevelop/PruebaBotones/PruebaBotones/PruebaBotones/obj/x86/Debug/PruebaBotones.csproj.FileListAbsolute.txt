@@ -1,0 +1,6 @@
+/home/jeaagu/general/ed/MonoDevelop/PruebaBotones/PruebaBotones/PruebaBotones/bin/Debug/PruebaBotones.exe
+/home/jeaagu/general/ed/MonoDevelop/PruebaBotones/PruebaBotones/PruebaBotones/bin/Debug/PruebaBotones.pdb
+/home/jeaagu/general/ed/MonoDevelop/PruebaBotones/PruebaBotones/PruebaBotones/obj/x86/Debug/PruebaBotones.csprojAssemblyReference.cache
+/home/jeaagu/general/ed/MonoDevelop/PruebaBotones/PruebaBotones/PruebaBotones/obj/x86/Debug/PruebaBotones.csproj.CoreCompileInputs.cache
+/home/jeaagu/general/ed/MonoDevelop/PruebaBotones/PruebaBotones/PruebaBotones/obj/x86/Debug/PruebaBotones.exe
+/home/jeaagu/general/ed/MonoDevelop/PruebaBotones/PruebaBotones/PruebaBotones/obj/x86/Debug/PruebaBotones.pdb

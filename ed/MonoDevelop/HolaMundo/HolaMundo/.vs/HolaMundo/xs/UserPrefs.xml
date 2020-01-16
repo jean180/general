@@ -2,15 +2,13 @@
   <MonoDevelop.Ide.ItemProperties.HolaMundo PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="HolaMundo/Program.cs">
     <Files>
-      <File FileName="HolaMundo/Program.cs" Line="13" Column="9" />
+      <File FileName="HolaMundo/Program.cs" Line="27" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="HolaMundo" expanded="True">
-            <Node name="HolaMundo" expanded="True">
-              <Node name="Program.cs" selected="True" />
-            </Node>
+          <Node name="HolaMundo" expanded="True" selected="True">
+            <Node name="HolaMundo" expanded="True" />
           </Node>
         </State>
       </Pad>
