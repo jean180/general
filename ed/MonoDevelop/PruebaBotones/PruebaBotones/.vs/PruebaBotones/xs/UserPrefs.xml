@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="PruebaBotones/MainWindow.cs">
     <Files>
       <File FileName="PruebaBotones/Program.cs" Line="1" Column="1" />
-      <File FileName="PruebaBotones/MainWindow.cs" Line="21" Column="22" />
+      <File FileName="PruebaBotones/MainWindow.cs" Line="35" Column="22" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,6 +13,9 @@
             </Node>
           </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
