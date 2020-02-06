@@ -1,0 +1,6 @@
+/home/jeaagu/general/ed/MonoDevelop/CBingo/CBingo/CBingo/obj/x86/Debug/CBingo.csprojAssemblyReference.cache
+/home/jeaagu/general/ed/MonoDevelop/CBingo/CBingo/CBingo/obj/x86/Debug/CBingo.csproj.CoreCompileInputs.cache
+/home/jeaagu/general/ed/MonoDevelop/CBingo/CBingo/CBingo/bin/Debug/CBingo.exe
+/home/jeaagu/general/ed/MonoDevelop/CBingo/CBingo/CBingo/bin/Debug/CBingo.pdb
+/home/jeaagu/general/ed/MonoDevelop/CBingo/CBingo/CBingo/obj/x86/Debug/CBingo.exe
+/home/jeaagu/general/ed/MonoDevelop/CBingo/CBingo/CBingo/obj/x86/Debug/CBingo.pdb
