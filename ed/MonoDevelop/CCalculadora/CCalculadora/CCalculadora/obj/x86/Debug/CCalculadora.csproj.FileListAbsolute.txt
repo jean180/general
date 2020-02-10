@@ -1,0 +1,6 @@
+/home/jeaagu/general/ed/MonoDevelop/CCalculadora/CCalculadora/CCalculadora/bin/Debug/CCalculadora.exe
+/home/jeaagu/general/ed/MonoDevelop/CCalculadora/CCalculadora/CCalculadora/bin/Debug/CCalculadora.pdb
+/home/jeaagu/general/ed/MonoDevelop/CCalculadora/CCalculadora/CCalculadora/obj/x86/Debug/CCalculadora.csprojAssemblyReference.cache
+/home/jeaagu/general/ed/MonoDevelop/CCalculadora/CCalculadora/CCalculadora/obj/x86/Debug/CCalculadora.csproj.CoreCompileInputs.cache
+/home/jeaagu/general/ed/MonoDevelop/CCalculadora/CCalculadora/CCalculadora/obj/x86/Debug/CCalculadora.exe
+/home/jeaagu/general/ed/MonoDevelop/CCalculadora/CCalculadora/CCalculadora/obj/x86/Debug/CCalculadora.pdb
