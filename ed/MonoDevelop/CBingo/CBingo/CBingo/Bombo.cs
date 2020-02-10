@@ -19,9 +19,9 @@ namespace CBingo
 
         }
 
-        public int sacarBola()
+        public int SacarBola()
         {
-            int indexAleatorio = random.Next(1, 90);
+            int indexAleatorio = random.Next(bolas.Count);
             int bola = bolas[indexAleatorio];
             bolas.Remove(indexAleatorio);
             return bola;

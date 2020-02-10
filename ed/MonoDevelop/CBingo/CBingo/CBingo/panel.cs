@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Gtk;
+using CBingo;
 
 namespace CBingo
 {
@@ -21,7 +22,7 @@ namespace CBingo
                     index++;
                     Button button = new Button();
                     table.Attach(button, (uint)column, (uint)column + 1, (uint)row, (uint)row + 1);
-                    button.Add(button);
+                    buttons.Add(button);
                     button.Label = index.ToString();
                 }
             vbox1.Add(table);
@@ -29,7 +30,7 @@ namespace CBingo
         }
         public void Marcar (int numero)
         {
-            buttons[numero-1].ModifyBg(StateType.Normal, new Gdk.Color(200,100,0));
+            buttons[numero-1].ModifyBg(StateType.Normal, new Gdk.Color(0,255,255));
         }
     }
 }
