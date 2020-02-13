@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="CCalculadora/MainWindow.cs">
     <Files>
       <File FileName="CCalculadora/Program.cs" Line="1" Column="1" />
-      <File FileName="CCalculadora/MainWindow.cs" Line="1" Column="1" />
+      <File FileName="CCalculadora/MainWindow.cs" Line="62" Column="52" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,7 +16,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.CCalculadora FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.CCalculadora PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -3,7 +3,9 @@ using Gtk;
 
 public partial class MainWindow : Gtk.Window
 {
-    int contador;
+    double a;
+    double b;
+    string c;
 
     public MainWindow() : base(Gtk.WindowType.Toplevel)
     {
@@ -28,22 +30,53 @@ public partial class MainWindow : Gtk.Window
 
     protected void OnBIgualClicked(object sender, EventArgs e)
     {
+        b = Convert.ToDouble(this.Pantalla.Text);
+        switch (c)
+        {
+            case "/":
+                this.Pantalla.Text = Convert.ToString(a / b);
+                break;
+
+            case "*":
+                this.Pantalla.Text = Convert.ToString(a * b);
+                break;
+
+            case "-":
+                this.Pantalla.Text = Convert.ToString(a - b);
+                break;
+
+            case "+":
+                this.Pantalla.Text = Convert.ToString(a + b);
+                break;
+        }
     }
 
     protected void OnBSumarClicked(object sender, EventArgs e)
     {
+        a = Convert.ToDouble(this.Pantalla.Text);
+        c = "+";
+        Pantalla.DeleteText(0, Pantalla.Text.Length);
     }
 
     protected void OnBDividirClicked(object sender, EventArgs e)
     {
+        a = Convert.ToDouble(this.Pantalla.Text);
+        c = "/";
+        Pantalla.DeleteText(0, Pantalla.Text.Length);
     }
 
     protected void OnBMultiplicarClicked(object sender, EventArgs e)
     {
+        a = Convert.ToDouble(this.Pantalla.Text);
+        c = "*";
+        Pantalla.DeleteText(0, Pantalla.Text.Length);
     }
 
     protected void OnBRestarClicked(object sender, EventArgs e)
     {
+        a = Convert.ToDouble(this.Pantalla.Text);
+        c = "-";
+        Pantalla.DeleteText(0, Pantalla.Text.Length);
     }
 
     protected void OnBPuntoClicked(object sender, EventArgs e)
@@ -53,7 +86,6 @@ public partial class MainWindow : Gtk.Window
         {
             if (Display.Equals(""))
             {
-                Pantalla.DeleteText(0, Pantalla.Text.Length);
                 Pantalla.InsertText("0.");
             }
             else
