@@ -16,9 +16,20 @@ public class Bingo {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner teclado = new Scanner(System.in);
-		//Bienvenida
-		System.out.println("Hola, bienvenido al Bingo Bongo, elige un número para asignarte un carton");
-		int carton = teclado.nextInt();
+		String nombre;
+		int jugadores = 0;
+		for (int i = 1; i <= 4; i++) {
+			System.out.println("introduce nombre del jugador " + i);
+			nombre = teclado.nextLine();
+			if (nombre.equalsIgnoreCase("salir") && i > 2) {
+				break;
+			} else if (nombre.equalsIgnoreCase("salir") && i <= 2) {
+				System.out.println("minimo 2 jugadores");
+				i--;
+			}
+
+		}
+
 	}
 
 }
