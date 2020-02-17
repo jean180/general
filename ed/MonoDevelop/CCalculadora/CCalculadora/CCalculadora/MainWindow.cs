@@ -30,25 +30,32 @@ public partial class MainWindow : Gtk.Window
 
     protected void OnBIgualClicked(object sender, EventArgs e)
     {
-        b = Convert.ToDouble(this.Pantalla.Text);
-        switch (c)
+        if(this.Pantalla.Text.Equals("") == false)
         {
-            case "/":
-                this.Pantalla.Text = Convert.ToString(a / b);
-                break;
+            b = Convert.ToDouble(this.Pantalla.Text);
+            switch (c)
+            {
+                case "":
+                    break;
+                case "/":
+                    this.Pantalla.Text = Convert.ToString(a / b);
+                    break;
 
-            case "*":
-                this.Pantalla.Text = Convert.ToString(a * b);
-                break;
+                case "*":
+                    this.Pantalla.Text = Convert.ToString(a * b);
+                    break;
 
-            case "-":
-                this.Pantalla.Text = Convert.ToString(a - b);
-                break;
+                case "-":
+                    this.Pantalla.Text = Convert.ToString(a - b);
+                    break;
 
-            case "+":
-                this.Pantalla.Text = Convert.ToString(a + b);
-                break;
+                case "+":
+                    this.Pantalla.Text = Convert.ToString(a + b);
+                    break;
+            }
+            c = "";
         }
+
     }
 
     protected void OnBSumarClicked(object sender, EventArgs e)
