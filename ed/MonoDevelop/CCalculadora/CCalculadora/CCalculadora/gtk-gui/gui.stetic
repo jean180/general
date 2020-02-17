@@ -344,7 +344,7 @@
                 <property name="HeightRequest">60</property>
                 <property name="CanFocus">True</property>
                 <property name="Type">TextOnly</property>
-                <property name="Label" translatable="yes">.</property>
+                <property name="Label" translatable="yes">,</property>
                 <property name="UseUnderline">True</property>
                 <signal name="Clicked" handler="OnBPuntoClicked" />
               </widget>

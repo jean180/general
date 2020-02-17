@@ -307,7 +307,7 @@ public partial class MainWindow
 		this.BPunto.CanFocus = true;
 		this.BPunto.Name = "BPunto";
 		this.BPunto.UseUnderline = true;
-		this.BPunto.Label = global::Mono.Unix.Catalog.GetString(".");
+		this.BPunto.Label = global::Mono.Unix.Catalog.GetString(",");
 		this.hbox7.Add(this.BPunto);
 		global::Gtk.Box.BoxChild w21 = ((global::Gtk.Box.BoxChild)(this.hbox7[this.BPunto]));
 		w21.Position = 0;

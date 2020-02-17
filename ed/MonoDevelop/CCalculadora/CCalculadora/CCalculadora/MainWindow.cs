@@ -82,16 +82,16 @@ public partial class MainWindow : Gtk.Window
     protected void OnBPuntoClicked(object sender, EventArgs e)
     {
         String Display = Pantalla.Text.ToString();
-        if (Display.Contains(".") == false)
+        if (Display.Contains(",") == false)
         {
             if (Display.Equals(""))
             {
-                Pantalla.InsertText("0.");
+                Pantalla.InsertText("0,");
             }
             else
             {
                 Pantalla.DeleteText(0, Pantalla.Text.Length);
-                Pantalla.InsertText(Display + ".");
+                Pantalla.InsertText(Display + ",");
             }
            
         }
