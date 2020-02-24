@@ -6,6 +6,7 @@ public partial class MainWindow : Gtk.Window
     double a;
     double b;
     string c;
+    int flag = 0;
 
     public MainWindow() : base(Gtk.WindowType.Toplevel)
     {
@@ -21,11 +22,15 @@ public partial class MainWindow : Gtk.Window
     protected void OnBVaciarClicked(object sender, EventArgs e)
     {
         Pantalla.DeleteText(0, Pantalla.Text.Length);
+        flag = 0;
     }
 
     protected void OnBBorrarClicked(object sender, EventArgs e)
     {
-        Pantalla.DeleteText(Pantalla.Text.Length - 1, Pantalla.Text.Length);
+        if (flag == 0)
+        {
+            Pantalla.DeleteText(Pantalla.Text.Length - 1, Pantalla.Text.Length);
+        }
     }
 
     protected void OnBIgualClicked(object sender, EventArgs e)
@@ -37,6 +42,7 @@ public partial class MainWindow : Gtk.Window
             {
                 case "":
                     break;
+
                 case "/":
                     this.Pantalla.Text = Convert.ToString(a / b);
                     break;
@@ -54,6 +60,7 @@ public partial class MainWindow : Gtk.Window
                     break;
             }
             c = "";
+            flag = 1;
         }
 
     }
@@ -63,6 +70,9 @@ public partial class MainWindow : Gtk.Window
         a = Convert.ToDouble(this.Pantalla.Text);
         c = "+";
         Pantalla.DeleteText(0, Pantalla.Text.Length);
+        flag = 0;
+
+
     }
 
     protected void OnBDividirClicked(object sender, EventArgs e)
@@ -70,6 +80,9 @@ public partial class MainWindow : Gtk.Window
         a = Convert.ToDouble(this.Pantalla.Text);
         c = "/";
         Pantalla.DeleteText(0, Pantalla.Text.Length);
+        flag = 0;
+
+
     }
 
     protected void OnBMultiplicarClicked(object sender, EventArgs e)
@@ -77,6 +90,9 @@ public partial class MainWindow : Gtk.Window
         a = Convert.ToDouble(this.Pantalla.Text);
         c = "*";
         Pantalla.DeleteText(0, Pantalla.Text.Length);
+        flag = 0;
+
+
     }
 
     protected void OnBRestarClicked(object sender, EventArgs e)
@@ -84,94 +100,140 @@ public partial class MainWindow : Gtk.Window
         a = Convert.ToDouble(this.Pantalla.Text);
         c = "-";
         Pantalla.DeleteText(0, Pantalla.Text.Length);
+        flag = 0;
+
+
     }
 
     protected void OnBPuntoClicked(object sender, EventArgs e)
     {
-        String Display = Pantalla.Text.ToString();
-        if (Display.Contains(",") == false)
+        if (flag == 0)
         {
-            if (Display.Equals(""))
+            String Display = Pantalla.Text.ToString();
+            if (Display.Contains(",") == false)
             {
-                Pantalla.InsertText("0,");
+                if (Display.Equals(""))
+                {
+                    Pantalla.InsertText("0,");
+                }
+                else
+                {
+                    Pantalla.DeleteText(0, Pantalla.Text.Length);
+                    Pantalla.InsertText(Display + ",");
+                }
+
             }
-            else
-            {
-                Pantalla.DeleteText(0, Pantalla.Text.Length);
-                Pantalla.InsertText(Display + ",");
-            }
-           
         }
+       
     }
 
     protected void OnBCeroClicked(object sender, EventArgs e)
     {
-        String Display = Pantalla.Text.ToString();
-        Pantalla.DeleteText(0, Pantalla.Text.Length);
-        Pantalla.InsertText(Display + "0");
+        if (flag == 0)
+        {
+            String Display = Pantalla.Text.ToString();
+            Pantalla.DeleteText(0, Pantalla.Text.Length);
+            Pantalla.InsertText(Display + "0");
+        }
+
     }
 
     protected void OnB1Clicked(object sender, EventArgs e)
     {
-        String Display = Pantalla.Text.ToString();
-        Pantalla.DeleteText(0, Pantalla.Text.Length);
-        Pantalla.InsertText(Display + "1");
+        if (flag == 0)
+        {
+            String Display = Pantalla.Text.ToString();
+            Pantalla.DeleteText(0, Pantalla.Text.Length);
+            Pantalla.InsertText(Display + "1");
+        }
     }
 
     protected void OnB2Clicked(object sender, EventArgs e)
     {
-        String Display = Pantalla.Text.ToString();
-        Pantalla.DeleteText(0, Pantalla.Text.Length);
-        Pantalla.InsertText(Display + "2");
+        if (flag == 0)
+        {
+            String Display = Pantalla.Text.ToString();
+            Pantalla.DeleteText(0, Pantalla.Text.Length);
+            Pantalla.InsertText(Display + "2");
+        }
+
     }
 
     protected void OnB3Clicked(object sender, EventArgs e)
     {
-        String Display = Pantalla.Text.ToString();
-        Pantalla.DeleteText(0, Pantalla.Text.Length);
-        Pantalla.InsertText(Display + "3");
+        if (flag == 0)
+        {
+            String Display = Pantalla.Text.ToString();
+            Pantalla.DeleteText(0, Pantalla.Text.Length);
+            Pantalla.InsertText(Display + "3");
+        }
+
     }
 
     protected void OnB4Clicked(object sender, EventArgs e)
     {
-        String Display = Pantalla.Text.ToString();
-        Pantalla.DeleteText(0, Pantalla.Text.Length);
-        Pantalla.InsertText(Display + "4");
+        if (flag == 0)
+        {
+            String Display = Pantalla.Text.ToString();
+            Pantalla.DeleteText(0, Pantalla.Text.Length);
+            Pantalla.InsertText(Display + "4");
+        }
+
     }
 
     protected void OnB5Clicked(object sender, EventArgs e)
     {
-        String Display = Pantalla.Text.ToString();
-        Pantalla.DeleteText(0, Pantalla.Text.Length);
-        Pantalla.InsertText(Display + "5");
+        if (flag == 0)
+        {
+            String Display = Pantalla.Text.ToString();
+            Pantalla.DeleteText(0, Pantalla.Text.Length);
+            Pantalla.InsertText(Display + "5");
+        }
+
     }
 
     protected void OnB6Clicked(object sender, EventArgs e)
     {
-        String Display = Pantalla.Text.ToString();
-        Pantalla.DeleteText(0, Pantalla.Text.Length);
-        Pantalla.InsertText(Display + "6");
+        if (flag == 0)
+        {
+            String Display = Pantalla.Text.ToString();
+            Pantalla.DeleteText(0, Pantalla.Text.Length);
+            Pantalla.InsertText(Display + "6");
+        }
+       
     }
 
     protected void OnB7Clicked(object sender, EventArgs e)
     {
-        String Display = Pantalla.Text.ToString();
-        Pantalla.DeleteText(0, Pantalla.Text.Length);
-        Pantalla.InsertText(Display + "7");
+        if (flag == 0)
+        {
+            String Display = Pantalla.Text.ToString();
+            Pantalla.DeleteText(0, Pantalla.Text.Length);
+            Pantalla.InsertText(Display + "7");
+        }
+
     }
 
     protected void OnB8Clicked(object sender, EventArgs e)
     {
-        String Display = Pantalla.Text.ToString();
-        Pantalla.DeleteText(0, Pantalla.Text.Length);
-        Pantalla.InsertText(Display + "8");
+        if (flag == 0)
+        {
+            String Display = Pantalla.Text.ToString();
+            Pantalla.DeleteText(0, Pantalla.Text.Length);
+            Pantalla.InsertText(Display + "8");
+        }
+
     }
 
     protected void OnB9Clicked(object sender, EventArgs e)
     {
-        String Display = Pantalla.Text.ToString();
-        Pantalla.DeleteText(0, Pantalla.Text.Length);
-        Pantalla.InsertText(Display + "9");
+        if (flag == 0)
+        {
+            String Display = Pantalla.Text.ToString();
+            Pantalla.DeleteText(0, Pantalla.Text.Length);
+            Pantalla.InsertText(Display + "9");
+        }
+
     }
 
 }
