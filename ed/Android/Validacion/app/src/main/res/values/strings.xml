@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Validacion</string>
+    <string name="txt_usuario">Usuario</string>
+    <string name="txt_password">Contraseña</string>
+    <string name="txt_Bienvenida">Bienvenido a mi aplicación</string>
+    <string name="B_Validar">VALIDAR</string>
+    <string name="B_Cerrar">CERRAR</string>
+
+
+</resources>
