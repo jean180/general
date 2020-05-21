@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ProyectoFinal</string>
+    <string name="txt_puntuacion">Puntuación:</string>
+    <string name="B_lanzar">LANZAR</string>
+    <string name="txt_vida">VIDA:</string>
+
+
+</resources>
